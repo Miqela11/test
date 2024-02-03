@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: lightblue;
+}
+
+ /* heading */
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  align-items: center;
+    background-color: rgb(0, 0, 0);
+}
+.logo img{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 50px;
+   margin-top: 50px;
+   border-radius: 100%;
+}
+
+
+
+.title {
+    display: flex;
+    gap: 50px;
+    font-size: 25px;
+    background-color: black;
+    
+}
+.title a {
+    color: red;
+    background-color: black;
+}
+
+.title a:hover {
+    color: white;
+    transition: .8s;
+}
+/* vito corleone */
+.container {
+    margin-top: 50px;
+}
+
+.test {
+
+    display: flex;
+    align-items: center;
+}
+
+.test img {
+    margin: 0 100px;
+}
+
+.test h1 {
+    margin: 50px 0 0 50px;
+}
+
+/* michael corleone */
+.image img {
+    width: 285px;
+    height: 285px;
+    margin: 0 100px;
+}
+
+.image {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    
+    
+}
+
+.test h1{
+    background-color: grey;
+}
+
+
+.text h1 {
+
+    background-color: grey;
+}
+ /* plot */
+.plot{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+   
+.wifi {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
